@@ -12,6 +12,14 @@
 		"ghcr.io/devcontainers-extra/features/zsh-plugins:0": {},
 		"ghcr.io/jckimble/devcontainer-features/ngrok:3": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
